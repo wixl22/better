@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "better:item/leather_chestplate_with_elytra",
+        "layer1": "better:item/leather_chestplate_with_elytra_overlay"
+    }
+}

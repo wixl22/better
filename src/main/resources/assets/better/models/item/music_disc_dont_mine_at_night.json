@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "better:item/music_disc_dont_mine_at_night"
+    }
+}

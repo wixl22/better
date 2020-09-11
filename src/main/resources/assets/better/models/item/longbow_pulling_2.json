@@ -1,0 +1,6 @@
+{
+    "parent": "better:item/longbow",
+    "textures": {
+        "layer0": "better:item/longbow_pulling_2"
+    }
+}

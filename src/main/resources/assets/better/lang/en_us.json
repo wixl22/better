@@ -1,0 +1,51 @@
+{
+  "item.better.nicomyrn_sword": "Nicomyrn Sword",
+  "item.better.nicomyrn_shovel": "Nicomyrn Shovel",
+  "item.better.nicomyrn_pickaxe": "Nicomyrn Pickaxe",
+  "item.better.nicomyrn_axe": "Nicomyrn Axe",
+  "item.better.nicomyrn_hoe": "Nicomyrn Hoe",
+  "item.better.nicomyrn_helmet": "Nicomyrn Helmet",
+  "item.better.nicomyrn_chestplate": "Nicomyrn Chestplate",
+  "item.better.nicomyrn_leggings": "Nicomyrn Leggings",
+  "item.better.nicomyrn_boots": "Nicomyrn Boots",
+  "item.better.nicomyrn_ingot": "Nicomyrn Ingot",
+  "item.better.longbow": "Longbow",
+  "item.better.iron_sword": "Iron sword",
+
+  "item.better.leather_chestplate_with_elytra": "Leather Chestplate With Elytra",
+  "item.better.chainmail_chestplate_with_elytra": "Chainmail Chestplate With Elytra",
+  "item.better.iron_chestplate_with_elytra": "Iron Chestplate With Elytra",
+  "item.better.diamond_chestplate_with_elytra": "Diamond Chestplate With Elytra",
+  "item.better.golden_chestplate_with_elytra": "Golden Chestplate With Elytra",
+  "item.better.netherite_chestplate_with_elytra": "Netherite Chestplate With Elytra",
+  "item.better.nicomyrn_chestplate_with_elytra": "Nicomyrn Chestplate With Elytra",
+
+
+
+  "item.better.diamond_sword": "Diamond Sword",
+  "item.better.diamond_pickaxe": "Diamond Pickaxe",
+  "item.better.nightmare_bite": "Nightmare Bite",
+  "item.better.sickle": "Sickle",
+  "item.better.mining_helmet": "Mining Helmet",
+
+  "block.better.torch": "Torch",
+
+  "item.better.music_disc_dont_mine_at_night": "Music Disc",
+  "item.better.music_disc_dont_mine_at_night.desc": "The Yogscast - Dont Mine At Night",
+
+  "item.better.music_disc_good_morning_world": "Music Disc",
+  "item.better.music_disc_good_morning_world.desc": "Doctor Stone - Good Morning World",
+
+  "item.better.music_disc_demon_slayer": "Music Disc",
+  "item.better.music_disc_demon_slayer.desc": "Demon Slayer - Kamado Tanjiro No Uta",
+
+  "item.better.music_disc_seven_nation_army": "Music Disc",
+  "item.better.music_disc_seven_nation_army.desc": "The White Stripes - Seven Nation Army",
+
+  "block.better.nicomyrn_ore": "Nicomyrn Ore",
+  "block.better.glass_door": "Glass Door",
+  "block.better.cracked_andesite": "Cracked Andesite",
+  "block.better.nicomyrn_block": "Nicomyrn block",
+
+  "enchantment.better.gigantic": "Gigantic"
+}

@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.wixl.better.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "PlayerEntityMixin"
   ],
   "client": [
-    "ExampleMixin"
+    "ElytraFeatureRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,0 +1,22 @@
+{
+  "music_disc.demon_slayer": {
+    "sounds": [
+      "better:music_disc/demon_slayer"
+    ]
+  },
+  "music_disc.seven_nation_army": {
+    "sounds": [
+      "better:music_disc/seven_nation_army"
+    ]
+  },
+  "music_disc.dont_mine_at_night": {
+    "sounds": [
+      "better:music_disc/dont_mine_at_night"
+    ]
+  },
+  "music_disc.good_morning_world": {
+    "sounds": [
+      "better:music_disc/good_morning_world"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "lit=false": {
+            "model": "better:block/extinct_torch"
+        },
+        "lit=true": {
+            "model": "minecraft:block/torch"
+        }
+    }
+}

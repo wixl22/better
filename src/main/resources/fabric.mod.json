@@ -1,27 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "id": "better",
+  "version": "2.0.0",
+  "name": "Better",
+  "description": "better minecraft mod",
   "authors": [
-    "Me!"
+    "wixl"
   ],
+
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/better/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.wixl.better.Better"
     ]
+
   },
+
   "mixins": [
     "modid.mixins.json"
   ],

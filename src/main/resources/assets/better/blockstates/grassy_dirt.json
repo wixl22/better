@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "age=0": { "model": "better:block/grassy_dirt0" },
+    "age=1": { "model": "better:block/grassy_dirt1" }
+  }
+}
