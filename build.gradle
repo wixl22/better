@@ -17,6 +17,7 @@ dependencies {
 
     //Fabric api
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.20.2+build.402-1.16"
+    implementation 'org.jetbrains:annotations:15.0'
 }
 
 processResources {

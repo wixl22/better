@@ -4,10 +4,29 @@
   "package": "com.wixl.better.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "PlayerEntityMixin"
+    "LivingEntityMixin",
+    "EnchantmentHelperMixin",
+    "ServerPlayNetworkHandlerMixin",
+    "PickaxeItemMixin",
+    "SwordItemMixin",
+    "PlayerEntityMixin",
+    "SpreadableBlockMixin",
+    "ServerPlayerEntityMixin",
+    "HostileEntityMixin",
+    "SugarCaneBlockMixin",
+    "DamageEnchantmentMixin",
+    "LuckEnchantmentMixin"
   ],
   "client": [
-    "ElytraFeatureRendererMixin"
+    "ClientPlayerEntityMixin",
+    "ElytraFeatureRendererMixin",
+    "CapeFeatureRendererMixin",
+    "ArmorFeatureRendererMixin",
+    "MinecraftClientMixin",
+    "PlayerEntityRendererMixin",
+    "HeldItemRendererMixin",
+    "WorldRendererMixin",
+    "BlockColorsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
