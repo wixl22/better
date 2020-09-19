@@ -32,7 +32,7 @@ public abstract class HeldItemFeatureRendererMixin<T extends LivingEntity, M ext
 		ItemStack mainHandStack = livingEntity.getMainHandStack();
 		ItemStack offHandStack = livingEntity.getOffHandStack();
 		if (offHandStack.isEmpty() && mainHandStack.getItem() instanceof DualWield) {
-			offHandStack = mainHandStack;
+			offHandStack = ((DualWield) mainHandStack.getItem()).getItemToShowInOffhand();
 		}
 
 		if (bl) {

@@ -141,7 +141,7 @@ public abstract class HeldItemRendererMixin {
 					matrices.translate((float) ad * aa, u, v);
 					this.applyEquipOffset(matrices, arm, equipProgress);
 					this.applySwingOffset(matrices, arm, swingProgress);
-					this.renderItem(player, mainHand, bl4 ? ModelTransformation.Mode.FIRST_PERSON_RIGHT_HAND : ModelTransformation.Mode.FIRST_PERSON_LEFT_HAND, !bl4, matrices, vertexConsumers, light);
+					this.renderItem(player, ((DualWield) mainHand.getItem()).getItemToShowInOffhand(), bl4 ? ModelTransformation.Mode.FIRST_PERSON_RIGHT_HAND : ModelTransformation.Mode.FIRST_PERSON_LEFT_HAND, !bl4, matrices, vertexConsumers, light);
 				}
 			}
 		} else if (item.getItem() == Items.FILLED_MAP) {

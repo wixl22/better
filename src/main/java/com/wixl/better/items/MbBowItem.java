@@ -21,16 +21,6 @@ import java.util.function.Consumer;
 public class MbBowItem extends BowItem {
 	public MbBowItem(Settings settings) {
 		super(settings);
-		FabricModelPredicateProviderRegistry.register(new Identifier("pull"), (stack, world, entity) -> {
-			if (entity == null) {
-				return 0.0F;
-			} else {
-				return entity.getActiveItem().getItem() instanceof MbBowItem ? getPullProgressBetter(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) : 0.0F;
-			}
-		});
-		FabricModelPredicateProviderRegistry.register(new Identifier("pulling"), (stack, world, entity) -> {
-			return entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F;
-		});
 	}
 
 	public void onStoppedUsing(ItemStack stack, World world, LivingEntity user, int remainingUseTicks) {

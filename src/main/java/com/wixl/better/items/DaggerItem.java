@@ -19,6 +19,7 @@ import net.minecraft.world.World;
 public class DaggerItem extends ToolItem implements Vanishable, DualWield {
 	private final float attackDamage;
 	private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
+	private final ItemStack offHandItemStack;
 
 	public DaggerItem(ToolMaterial toolMaterial, float attackDamage, float attackSpeed, Item.Settings settings) {
 		super(toolMaterial, settings);
@@ -27,6 +28,7 @@ public class DaggerItem extends ToolItem implements Vanishable, DualWield {
 		builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier(ATTACK_DAMAGE_MODIFIER_ID, "Weapon modifier", (double)this.attackDamage, EntityAttributeModifier.Operation.ADDITION));
 		builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier(ATTACK_SPEED_MODIFIER_ID, "Weapon modifier", (double)attackSpeed, EntityAttributeModifier.Operation.ADDITION));
 		this.attributeModifiers = builder.build();
+		offHandItemStack = new ItemStack(this);
 	}
 
 	public float getAttackDamage() {
@@ -69,5 +71,10 @@ public class DaggerItem extends ToolItem implements Vanishable, DualWield {
 
 	public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot) {
 		return slot == EquipmentSlot.MAINHAND ? this.attributeModifiers : super.getAttributeModifiers(slot);
+	}
+
+	@Override
+	public ItemStack getItemToShowInOffhand() {
+		return offHandItemStack;
 	}
 }

@@ -23,7 +23,6 @@ public class SwordItemMixin extends ToolItem {
 
 	@Inject(at = @At("RETURN"), method = "<init>")
 	public void init(ToolMaterial material, int attackDamage, float attackSpeed, Item.Settings settings, CallbackInfo info) {
-		FabricModelPredicateProviderRegistry.register(new Identifier("blocking"), (stack, world, entity) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
 	}
 
 	public int getMaxUseTime(ItemStack stack) {
