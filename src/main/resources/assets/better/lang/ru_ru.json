@@ -9,10 +9,7 @@
   "item.better.nicomyrn_leggings": "Никомирновые поножи",
   "item.better.nicomyrn_boots": "Никомирновые ботинки",
   "item.better.nicomyrn_ingot": "Никомирновый слиток",
-  "item.better.longbow": "Длинный лук",
-  "item.better.iron_sword": "Железный меч",
-
-  "block.better.torch": "Факел",
+  "block.better.nicomyrn_ore": "Никомирновая руда",
 
 
   "item.better.leather_chestplate_with_elytra": "Кожаная куртка с элитрами",
@@ -23,12 +20,23 @@
   "item.better.netherite_chestplate_with_elytra": "незеритовый нагрудник с элитрами",
   "item.better.nicomyrn_chestplate_with_elytra": "Никомирновый нагрудник с элитрами",
 
+  "item.better.longbow": "Длинный лук",
 
+  "item.better.nightmare_bite": "Кошмарный укус",
+  "item.better.sickle": "Серпы",
+  "item.better.the_last_laugh": "Последний смех",
+
+  "item.better.dagger": "Кинжалы",
+  "item.better.fang_of_frost": "Клыки Мороза",
+  "item.better.moon_dagger": "Лунные кинжалы",
+
+  "item.better.iron_sword": "Железный меч",
   "item.better.diamond_sword": "Алмазный меч",
   "item.better.diamond_pickaxe": "Алмазная кирка",
-  "item.better.nightmare_bite": "Кошмарный укус",
-  "item.better.sickle": "Серп",
-  "item.better.mining_helmet": "Каска шахтера",
+
+  "item.better.fox_helmet": "Лисий капюшон",
+  "item.better.fox_chestplate": "Лисья накидка",
+  "item.better.fox_boots": "Лисьи сапоги",
 
   "item.better.music_disc_dont_mine_at_night": "Пластинка",
   "item.better.music_disc_dont_mine_at_night.desc": "The Yogscast - Dont Mine At Night",
@@ -42,10 +50,8 @@
   "item.better.music_disc_seven_nation_army": "Пластинка",
   "item.better.music_disc_seven_nation_army.desc": "The White Stripes - Seven Nation Army",
 
-  "block.better.nicomyrn_ore": "Никомирновая руда",
   "block.better.glass_door": "Стеклянная дверь",
   "block.better.cracked_andesite": "Треснувший андезит",
   "block.better.nicomyrn_block": "Никомирновый блок",
-
   "enchantment.better.gigantic": "Гигантизм"
 }

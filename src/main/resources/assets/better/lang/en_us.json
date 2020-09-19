@@ -9,8 +9,8 @@
   "item.better.nicomyrn_leggings": "Nicomyrn Leggings",
   "item.better.nicomyrn_boots": "Nicomyrn Boots",
   "item.better.nicomyrn_ingot": "Nicomyrn Ingot",
-  "item.better.longbow": "Longbow",
-  "item.better.iron_sword": "Iron sword",
+  "block.better.nicomyrn_ore": "Nicomyrn Ore",
+
 
   "item.better.leather_chestplate_with_elytra": "Leather Chestplate With Elytra",
   "item.better.chainmail_chestplate_with_elytra": "Chainmail Chestplate With Elytra",
@@ -20,15 +20,23 @@
   "item.better.netherite_chestplate_with_elytra": "Netherite Chestplate With Elytra",
   "item.better.nicomyrn_chestplate_with_elytra": "Nicomyrn Chestplate With Elytra",
 
+  "item.better.longbow": "Longbow",
 
+  "item.better.nightmare_bite": "Nightmare's Bite",
+  "item.better.sickle": "Sickles",
+  "item.better.the_last_laugh": "The Last Laugh",
 
+  "item.better.dagger": "Daggers",
+  "item.better.fang_of_frost": "Fangs of Frost",
+  "item.better.moon_dagger": "Moon Daggers",
+
+  "item.better.iron_sword": "Iron sword",
   "item.better.diamond_sword": "Diamond Sword",
   "item.better.diamond_pickaxe": "Diamond Pickaxe",
-  "item.better.nightmare_bite": "Nightmare Bite",
-  "item.better.sickle": "Sickle",
-  "item.better.mining_helmet": "Mining Helmet",
 
-  "block.better.torch": "Torch",
+  "item.better.fox_helmet": "Fox Hood",
+  "item.better.fox_chestplate": "Fox Vest",
+  "item.better.fox_boots": "Fox Boots",
 
   "item.better.music_disc_dont_mine_at_night": "Music Disc",
   "item.better.music_disc_dont_mine_at_night.desc": "The Yogscast - Dont Mine At Night",
@@ -42,10 +50,8 @@
   "item.better.music_disc_seven_nation_army": "Music Disc",
   "item.better.music_disc_seven_nation_army.desc": "The White Stripes - Seven Nation Army",
 
-  "block.better.nicomyrn_ore": "Nicomyrn Ore",
   "block.better.glass_door": "Glass Door",
   "block.better.cracked_andesite": "Cracked Andesite",
   "block.better.nicomyrn_block": "Nicomyrn block",
-
   "enchantment.better.gigantic": "Gigantic"
 }

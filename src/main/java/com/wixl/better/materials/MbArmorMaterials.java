@@ -14,15 +14,6 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum MbArmorMaterials implements ArmorMaterial {
-	NICOMYRN("nycomyrn", 40, new int[]{4, 8, 10, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 5.0F, 0, () -> {
-		return Ingredient.ofItems(MbItems.NICOMYRN_INGOT);
-	}),
-
-	MINING_HELMET("mining_helmet", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0, () ->
-	{
-		return Ingredient.ofItems(Items.IRON_INGOT);
-	}),
-
 	PIG_MASK("pig_mask", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () ->
 	{
 		return Ingredient.ofItems(Items.LEATHER);

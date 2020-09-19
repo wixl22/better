@@ -20,8 +20,10 @@
   "entrypoints": {
     "main": [
       "com.wixl.better.Better"
+    ],
+    "client": [
+      "com.wixl.better.BetterClientModInitializer"
     ]
-
   },
 
   "mixins": [
