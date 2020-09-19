@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "better:longbow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:nightmare_bite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:sickle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:the_last_laugh"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:dagger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:fang_of_frost"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:moon_dagger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:diamond_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:fox_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:fox_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "better:fox_boots"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.07,
+          "looting_multiplier": 0.01
+        }
+      ]
+    }
+  ]
+}
