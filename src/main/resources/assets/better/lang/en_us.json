@@ -1,24 +1,10 @@
 {
-  "item.better.nicomyrn_sword": "Nicomyrn Sword",
-  "item.better.nicomyrn_shovel": "Nicomyrn Shovel",
-  "item.better.nicomyrn_pickaxe": "Nicomyrn Pickaxe",
-  "item.better.nicomyrn_axe": "Nicomyrn Axe",
-  "item.better.nicomyrn_hoe": "Nicomyrn Hoe",
-  "item.better.nicomyrn_helmet": "Nicomyrn Helmet",
-  "item.better.nicomyrn_chestplate": "Nicomyrn Chestplate",
-  "item.better.nicomyrn_leggings": "Nicomyrn Leggings",
-  "item.better.nicomyrn_boots": "Nicomyrn Boots",
-  "item.better.nicomyrn_ingot": "Nicomyrn Ingot",
-  "block.better.nicomyrn_ore": "Nicomyrn Ore",
-
-
   "item.better.leather_chestplate_with_elytra": "Leather Chestplate With Elytra",
   "item.better.chainmail_chestplate_with_elytra": "Chainmail Chestplate With Elytra",
   "item.better.iron_chestplate_with_elytra": "Iron Chestplate With Elytra",
   "item.better.diamond_chestplate_with_elytra": "Diamond Chestplate With Elytra",
   "item.better.golden_chestplate_with_elytra": "Golden Chestplate With Elytra",
   "item.better.netherite_chestplate_with_elytra": "Netherite Chestplate With Elytra",
-  "item.better.nicomyrn_chestplate_with_elytra": "Nicomyrn Chestplate With Elytra",
 
   "item.better.longbow": "Longbow",
 
@@ -52,6 +38,5 @@
 
   "block.better.glass_door": "Glass Door",
   "block.better.cracked_andesite": "Cracked Andesite",
-  "block.better.nicomyrn_block": "Nicomyrn block",
   "enchantment.better.gigantic": "Gigantic"
 }

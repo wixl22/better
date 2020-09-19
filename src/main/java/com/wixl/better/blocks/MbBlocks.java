@@ -11,11 +11,9 @@ import net.minecraft.util.registry.Registry;
 import java.util.function.ToIntFunction;
 
 public class MbBlocks {
-	public static final Block NICOMYRN_ORE = register("nicomyrn_ore", new OreBlock(FabricBlockSettings.of(Material.STONE).strength(30.0F, 30.0F).breakByTool(FabricToolTags.PICKAXES, 3)));
 	public static final Block GLASS_DOOR = register("glass_door", new MbDoorBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3F, 0.3F).sounds(BlockSoundGroup.GLASS).nonOpaque()));
 	public static final Block GRASSY_DIRT = register("grassy_dirt", new GrassyDirt(FabricBlockSettings.of(Material.SOIL, MaterialColor.DIRT).strength(0.3F, 0.3F).breakByTool(FabricToolTags.SHOVELS, 0).ticksRandomly().strength(0.5f, 0.5f).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block CRACKED_ANDESITE = register("cracked_andesite", new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.STONE).breakByTool(FabricToolTags.PICKAXES, 0).strength(1.5F, 6.0F)));
-	public static final Block NICOMYRN_BLOCK = register("nicomyrn_block", new Block(FabricBlockSettings.of(Material.METAL, MaterialColor.BLACK).strength(50.0F, 60.0F).sounds(BlockSoundGroup.METAL)));
 
 	private static Block register(String key, Block block) {
 		return Registry.register(Registry.BLOCK, new Identifier("better", key), block);
