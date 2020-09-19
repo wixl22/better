@@ -19,7 +19,7 @@ public enum MbArmorMaterials implements ArmorMaterial {
 		return Ingredient.ofItems(Items.LEATHER);
 	}),
 
-	FOX("fox", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () ->
+	FOX("fox", 7, new int[]{1, 3, 5, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () ->
 	{
 		return Ingredient.ofItems(Items.LEATHER);
 	});

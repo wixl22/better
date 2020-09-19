@@ -6,8 +6,8 @@ import net.minecraft.item.HoeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ToolMaterial;
 
-public class SickleItem extends HoeItem implements DualWield {
-	protected SickleItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+public class SickleItem extends MbHoeItem implements DualWield {
+	protected SickleItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
 		super(material, attackDamage, attackSpeed, settings);
 	}
 

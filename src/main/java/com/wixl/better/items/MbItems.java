@@ -15,17 +15,17 @@ public class MbItems {
 
 	public static final Item LONGBOW = register("longbow", new LongBowItem(new Item.Settings().group(ItemGroup.COMBAT).maxDamage(384)));
 
-	public static final Item NIGHTMARE_BITE = register("nightmare_bite", new SickleItem(ToolMaterials.DIAMOND, 3, -2F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
-	public static final Item SICKLE = register("sickle", new SickleItem(ToolMaterials.IRON, 1, -1.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
-	public static final Item THE_LAST_LAUGH = register("the_last_laugh", new SickleItem(ToolMaterials.IRON, 1, -1.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
+	public static final Item SICKLE = register("sickle", new SickleItem(ToolMaterials.IRON, -0.76F, (2f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
+	public static final Item NIGHTMARE_BITE = register("nightmare_bite", new SickleItem(ToolMaterials.DIAMOND, -1.82f, (2f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
+	public static final Item THE_LAST_LAUGH = register("the_last_laugh", new SickleItem(ToolMaterials.DIAMOND, -1.72f, (2f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
 
-	public static final Item DAGGER = register("dagger", new DaggerItem(ToolMaterials.IRON, 1, -1.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
-	public static final Item FANG_OF_FROST = register("fang_of_frost", new DaggerItem(ToolMaterials.IRON, 1, -1.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
-	public static final Item MOON_DAGGER = register("moon_dagger", new DaggerItem(ToolMaterials.IRON, 1, -1.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
+	public static final Item DAGGER = register("dagger", new DaggerItem(ToolMaterials.IRON, -0.89f, (2.5f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
+	public static final Item FANG_OF_FROST = register("fang_of_frost", new DaggerItem(ToolMaterials.DIAMOND, -1.45f, (2.5f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
+	public static final Item MOON_DAGGER = register("moon_dagger", new DaggerItem(ToolMaterials.DIAMOND, -1.86f, (2.5f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
 
-	public static final Item IRON_SWORD = register("iron_sword", new SwordItem(ToolMaterials.IRON, 3, -2.4F, (new Item.Settings()).group(ItemGroup.COMBAT)));
-	public static final Item DIAMOND_SWORD = register("diamond_sword", new SwordItem(ToolMaterials.DIAMOND, 4, -2.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
-	public static final Item DIAMOND_PICKAXE = register("diamond_pickaxe", new MbPickaxeItem(ToolMaterials.DIAMOND, 2, -2.8F, (new Item.Settings()).group(ItemGroup.TOOLS).rarity(Rarity.UNCOMMON)));
+	public static final Item IRON_SWORD = register("iron_sword", new SwordItem(ToolMaterials.IRON, 3, (1.6f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT)));
+	public static final Item DIAMOND_SWORD = register("diamond_sword", new SwordItem(ToolMaterials.DIAMOND, 4, (1.6f-4.0f), (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
+	public static final Item DIAMOND_PICKAXE = register("diamond_pickaxe", new MbPickaxeItem(ToolMaterials.DIAMOND, 2, (1.3f-4.0f), (new Item.Settings()).group(ItemGroup.TOOLS).rarity(Rarity.UNCOMMON)));
 
 	public static final Item CHAINMAIL_CHESTPLATE_WITH_ELYTRA = register("chainmail_chestplate_with_elytra", new ArmorWithElytra(ArmorMaterials.CHAIN, EquipmentSlot.CHEST, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
 	public static final Item IRON_CHESTPLATE_WITH_ELYTRA = register("iron_chestplate_with_elytra", new ArmorWithElytra(ArmorMaterials.IRON, EquipmentSlot.CHEST, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
