@@ -1,7 +1,7 @@
 package com.wixl.better.mixin;
 
 import com.wixl.better.items.ArmorWithElytra;
-import com.wixl.better.items.DualWieldTool;
+import com.wixl.better.items.DualWield;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.*;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -104,15 +104,6 @@ public abstract class PlayerEntityMixin extends LivingEntity {
 		if (target.isAttackable()) {
 			if (!target.handleAttack(this)) {
 				float f = (float)this.getAttributeValue(EntityAttributes.GENERIC_ATTACK_DAMAGE);
-				ItemStack mainHandStack = getMainHandStack();
-				Item mainHandStackItem = mainHandStack.getItem();
-				if (!world.isClient() && mainHandStackItem instanceof DualWieldTool) {
-					ItemStack offHandStack = getOffHandStack();
-					Item offHandStackItem = offHandStack.getItem();
-					if (offHandStackItem == mainHandStackItem) {
-						f *= 2;
-					}
-				}
 				float h;
 				if (target instanceof LivingEntity) {
 					h = EnchantmentHelper.getAttackDamage(this.getMainHandStack(), ((LivingEntity)target).getGroup());
@@ -162,6 +153,15 @@ public abstract class PlayerEntityMixin extends LivingEntity {
 						}
 					}
 
+					ItemStack mainHandStack = getMainHandStack();
+					Item mainHandStackItem = mainHandStack.getItem();
+					if (!world.isClient() && mainHandStackItem instanceof DualWield) {
+						ItemStack offHandStack = getOffHandStack();
+						if (offHandStack.isEmpty()){
+							f *= 2;
+						}
+					}
+					System.out.println("damage: " + f);
 					Vec3d vec3d = target.getVelocity();
 					boolean bl6 = target.damage(DamageSource.player(getSelf()), f);
 					if (bl6) {

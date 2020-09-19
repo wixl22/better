@@ -20,7 +20,6 @@ public class MbItems {
 	public static final Item IRON_SWORD = register("iron_sword", new SwordItem(ToolMaterials.IRON, 3, -2.4F, (new Item.Settings()).group(ItemGroup.COMBAT)));
 	public static final Item DIAMOND_SWORD = register("diamond_sword", new SwordItem(ToolMaterials.DIAMOND, 4, -2.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
 	public static final Item DIAMOND_PICKAXE = register("diamond_pickaxe", new MbPickaxeItem(ToolMaterials.DIAMOND, 2, -2.8F, (new Item.Settings()).group(ItemGroup.TOOLS).rarity(Rarity.UNCOMMON)));
-
 	public static final Item CHAINMAIL_CHESTPLATE_WITH_ELYTRA = register("chainmail_chestplate_with_elytra", new ArmorWithElytra(ArmorMaterials.CHAIN, EquipmentSlot.CHEST, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
 	public static final Item IRON_CHESTPLATE_WITH_ELYTRA = register("iron_chestplate_with_elytra", new ArmorWithElytra(ArmorMaterials.IRON, EquipmentSlot.CHEST, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
 	public static final Item DIAMOND_CHESTPLATE_WITH_ELYTRA = register("diamond_chestplate_with_elytra", new ArmorWithElytra(ArmorMaterials.DIAMOND, EquipmentSlot.CHEST, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON)));
@@ -35,9 +34,8 @@ public class MbItems {
 	public static final Item MUSIC_DISC_DONT_MINE_AT_NIGHT = register("music_disc_dont_mine_at_night", new MbMusicDiscItem(15, MbSoundEvents.MUSIC_DISC_DONT_MINE_AT_NIGHT, (new Item.Settings()).maxCount(1).group(ItemGroup.MISC).rarity(Rarity.RARE)));
 	public static final Item MUSIC_DISC_GOOD_MORNING_WORLD = register("music_disc_good_morning_world", new MbMusicDiscItem(16, MbSoundEvents.MUSIC_DISC_GOOD_MORNING_WORLD, (new Item.Settings()).maxCount(1).group(ItemGroup.MISC).rarity(Rarity.RARE)));
 
-	//	public static final Item NIGHTMARE_BITE = register("nightmare_bite", new NightmareBite(ToolMaterials.DIAMOND, 3, -2F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
-//	public static final Item SICKLE = register("sickle", new DualWieldTool(ToolMaterials.IRON, 1f, -1.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
-//
+	public static final Item NIGHTMARE_BITE = register("nightmare_bite", new SickleItem(ToolMaterials.DIAMOND, 3, -2F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
+	public static final Item SICKLE = register("sickle", new SickleItem(ToolMaterials.IRON, 1, -1.4F, (new Item.Settings()).group(ItemGroup.COMBAT).rarity(Rarity.RARE)));
 
 	//
 //	public static final Item PIG_MASK = register("pig_mask", new MbArmorItem(MbArmorMaterials.PIG_MASK, EquipmentSlot.HEAD, (new Item.Settings()).group(ItemGroup.COMBAT)));

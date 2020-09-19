@@ -1,6 +1,6 @@
 package com.wixl.better.mixin;
 
-import com.wixl.better.items.DualWieldTool;
+import com.wixl.better.items.DualWield;
 import net.minecraft.enchantment.DamageEnchantment;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,7 +14,7 @@ public class DamageEnchantmentMixin {
 	public void isAcceptableItem(ItemStack stack, CallbackInfoReturnable<Boolean> callback) {
 		boolean isAcceptable = callback.getReturnValue();
 		if (!isAcceptable){
-			callback.setReturnValue(stack.getItem() instanceof DualWieldTool);
+			callback.setReturnValue(stack.getItem() instanceof DualWield);
 		}
 	}
 }

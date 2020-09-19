@@ -1,6 +1,5 @@
 package com.wixl.better.mixin;
 
-import com.wixl.better.items.DualWieldTool;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.network.ClientPlayerInteractionManager;

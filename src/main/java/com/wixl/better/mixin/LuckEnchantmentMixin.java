@@ -1,6 +1,6 @@
 package com.wixl.better.mixin;
 
-import com.wixl.better.items.DualWieldTool;
+import com.wixl.better.items.DualWield;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.enchantment.LuckEnchantment;
@@ -15,6 +15,6 @@ public class LuckEnchantmentMixin extends Enchantment {
 	}
 
 	public boolean isAcceptableItem(ItemStack stack) {
-		return stack.getItem() instanceof DualWieldTool || super.isAcceptableItem(stack);
+		return stack.getItem() instanceof DualWield || super.isAcceptableItem(stack);
 	}
 }
