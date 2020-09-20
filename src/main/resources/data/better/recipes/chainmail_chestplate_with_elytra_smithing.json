@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:elytra"
+  },
+  "result": {
+    "item": "better:chainmail_chestplate_with_elytra"
+  }
+}
