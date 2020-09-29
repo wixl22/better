@@ -10,12 +10,12 @@
     "PickaxeItemMixin",
     "SwordItemMixin",
     "PlayerEntityMixin",
-    "SpreadableBlockMixin",
     "ServerPlayerEntityMixin",
     "HostileEntityMixin",
     "SugarCaneBlockMixin",
     "DamageEnchantmentMixin",
-    "LuckEnchantmentMixin"
+    "LuckEnchantmentMixin",
+    "HoeItemMixin"
   ],
   "client": [
     "ClientPlayerEntityMixin",

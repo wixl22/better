@@ -3,6 +3,7 @@ package com.wixl.better.items;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Maps;
+import com.wixl.better.blocks.MbBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -25,6 +26,7 @@ public class MbHoeItem extends MiningToolItem {
 
 	protected MbHoeItem(ToolMaterial material, float attackDamage, float attackSpeed, Item.Settings settings) {
 		super(attackDamage, attackSpeed, material, EFFECTIVE_BLOCKS, settings);
+		TILLED_BLOCKS.put(MbBlocks.GRASSY_DIRT,  Blocks.FARMLAND.getDefaultState());
 	}
 
 	public ActionResult useOnBlock(ItemUsageContext context) {

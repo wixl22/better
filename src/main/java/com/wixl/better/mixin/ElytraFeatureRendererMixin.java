@@ -21,6 +21,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(ElytraFeatureRenderer.class)
 public class ElytraFeatureRendererMixin<T extends LivingEntity, M extends EntityModel<T>> extends FeatureRenderer<T, M> {
@@ -31,7 +32,7 @@ public class ElytraFeatureRendererMixin<T extends LivingEntity, M extends Entity
 		super(context);
 	}
 
-	@Override
+	@Overwrite
 	public void render(MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i, T livingEntity, float f, float g, float h, float j, float k, float l) {
 		ItemStack itemStack = livingEntity.getEquippedStack(EquipmentSlot.CHEST);
 		Item item = itemStack.getItem();
